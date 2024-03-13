@@ -12,3 +12,69 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+mypy-extensions==0.4.3
+pathspec==0.9.0
+graphviz
+plotly==5.0.0
+patsy==0.5.1
+statsmodels==0.9.0
+fsspec==2021.09.0
+partd==1.2.0
+toolz==0.10.0
+sortedcontainers==2.0.5
+tblib==1.6.0
+toolz==0.10.0
+zict==2.2.0
+ipywidgets==7.5
+kaleido==0.1.0
+lightgbm==4.0.0
+networkx==2.6
+shap==0.42.0
+seaborn==0.11.1
+statsmodels==0.13.2
+texttable==1.6.2
+vowpalwabbit==8.11.0
+xgboost==1.7.0
+scikit-image==0.12
+nltk==3.4.5
+Cython==0.29
+pyaml==16.9
+numpy==1.21.0
+
+# black 23.7.0 requires mypy-extensions>==0.4.3, which is not installed.
+# black 23.7.0 requires pathspec>==0.9.0, which is not installed.
+# catboost 1.2 requires graphviz, which is not installed.
+# catboost 1.2 requires plotly, which is not installed.
+# category-encoders 2.5.1.post0 requires patsy>==0.5.1, which is not installed.
+# category-encoders 2.5.1.post0 requires statsmodels>==0.9.0, which is not installed.
+# dask 2023.8.1 requires fsspec>==2021.09.0, which is not installed.
+# dask 2023.8.1 requires partd>==1.2.0, which is not installed.
+# dask 2023.8.1 requires toolz>==0.10.0, which is not installed.
+# distributed 2023.8.1 requires msgpack>==1.0.0, which is not installed.
+# distributed 2023.8.1 requires sortedcontainers>==2.0.5, which is not installed.
+# distributed 2023.8.1 requires tblib>==1.6.0, which is not installed.
+# distributed 2023.8.1 requires toolz>==0.10.0, which is not installed.
+# distributed 2023.8.1 requires zict>==2.2.0, which is not installed.
+# evalml 0.79.0 requires ipywidgets<8.0.5,>==7.5, which is not installed.
+# evalml 0.79.0 requires kaleido>==0.1.0, which is not installed.
+# evalml 0.79.0 requires lightgbm>==4.0.0, which is not installed.
+# evalml 0.79.0 requires networkx>==2.6, which is not installed.
+# evalml 0.79.0 requires plotly>==5.0.0, which is not installed.
+# evalml 0.79.0 requires seaborn>==0.11.1, which is not installed.
+# evalml 0.79.0 requires shap>==0.42.0, which is not installed.
+# evalml 0.79.0 requires statsmodels>==0.12.2, which is not installed.
+# evalml 0.79.0 requires texttable>==1.6.2, which is not installed.
+# evalml 0.79.0 requires vowpalwabbit>==8.11.0, which is not installed.
+# evalml 0.79.0 requires xgboost>==1.7.0, which is not installed.
+# holidays 0.20 requires korean-lunar-calendar, which is not installed.
+# holidays 0.20 requires PyMeeus, which is not installed.
+# lime 0.2.0.1 requires scikit-image>==0.12, which is not installed.
+# nlp-primitives 2.11.0 requires nltk>==3.4.5, which is not installed.
+# pmdarima 2.0.3 requires Cython!==0.29.18,!==0.29.31,>==0.29, which is not installed.
+# pmdarima 2.0.3 requires statsmodels>==0.13.2, which is not installed.
+# scikit-optimize 0.9.0 requires pyaml>==16.9, which is not installed.
+# sktime 0.22.0 requires scikit-base<0.6.0, which is not installed.
+# numba 0.57.1 requires numpy<1.25,>==1.21, but you have numpy 1.26.4 which is incompatible.
+# sktime 0.22.0 requires numpy<1.26,>==1.21.0, but you have numpy 1.26.4 which is incompatible.
+# typer 0.3.2 requires click<7.2.0,>==7.1.1, but you have click 8.1.7 which is incompatible.
+# woodwork 0.25.1 requires numpy<1.25.0,>==1.22.0, but you have numpy 1.26.4 which is incompatible.
