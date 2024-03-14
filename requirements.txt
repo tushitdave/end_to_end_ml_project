@@ -40,6 +40,7 @@ nltk==3.4.5
 Cython==0.29
 pyaml==16.9
 numpy==1.21.0
+-e .
 
 # black 23.7.0 requires mypy-extensions>==0.4.3, which is not installed.
 # black 23.7.0 requires pathspec>==0.9.0, which is not installed.
