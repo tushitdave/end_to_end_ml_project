@@ -5,7 +5,7 @@ import sys
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
 if parent_dir not in sys.path:
-    print("parent Directory",parent_dir)
+    # print("parent Directory",parent_dir)
     sys.path.append(parent_dir)
 
 
